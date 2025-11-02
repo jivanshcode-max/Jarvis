@@ -6,7 +6,7 @@ from google.genai import types
 import json
 
 r = sr.Recognizer()
-client = genai.Client(api_key= "AIzaSyBa0pSnwcBrl0gWY1nsjnakyvqlYGtVJ7U")
+client = genai.Client(api_key= "<Your API Key>")
 input_cmd = ""
 cmd_dict = {}
 
